@@ -1,3 +1,7 @@
-# Lama Dev AI Chat Bot App Starter Setup
+# Xenos AI Chatbot
 
-This template provides a minimal setup to get React 19 working in Vite with HMR and some ESLint rules.
+Made with Vite, React 19.  
+
+Graphics: seqyu 
+
+Programmer: scovings
