@@ -3,9 +3,6 @@
   align-items: center;
   gap: 100px;
   height: 100%;
-  ::-webkit-scrollbar{
-    display: none;
-  }
 
   .left {
     flex: 1;
@@ -43,6 +40,14 @@
   }
   .right {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    .imgContainer{
+      display: flex;
+    }
   }
 
   .orbital{
@@ -50,5 +55,15 @@
     bottom: 0;
     top: 0;
     opacity: 0.05;
+    animation: 100s linear infinite rotateOrbital;
+  }
+}
+
+@keyframes rotateOrbital {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(60deg);
   }
 }
