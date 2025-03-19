@@ -18,9 +18,6 @@ const RootLayout = () => {
             <span>XENOS</span>
           </Link>
           <div className="user">
-            <SignedOut>
-              <SignInButton />
-            </SignedOut>
             <SignedIn>
               <UserButton />
             </SignedIn>
